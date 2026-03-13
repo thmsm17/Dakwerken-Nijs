@@ -17,7 +17,7 @@ const services = [
   },
   {
     title: "Platte Daken",
-    description: "Specialist in EPDM, roofing en roofing-renovatie. 100% waterdicht met een uiterst lange levensduur.",
+    description: "Specialist in platte daken met rubber- en bitumenbedekking. 100% waterdicht met een uiterst lange levensduur.",
     icon: Square,
   },
   {
