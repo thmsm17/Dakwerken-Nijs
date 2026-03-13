@@ -59,7 +59,7 @@ export function Footer() {
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} P.G. Nijs Dakwerken. Alle rechten voorbehouden.
+            &copy; {new Date().getFullYear()} P.G. Nijs Dakwerken. Alle rechten voorbehouden. &nbsp;|&nbsp; KVK: 12012784
           </p>
           
           <button 
