@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>P.G. Nijs Dakwerken</title>
+    <script>
+      // Redirect all 404s back to index.html for SPA routing
+      var path = window.location.pathname;
+      var base = '/Dakwerken-Nijs';
+      var rest = path.replace(base, '') || '/';
+      window.location.replace(base + '/?redirect=' + encodeURIComponent(rest));
+    </script>
+  </head>
+  <body></body>
+</html>

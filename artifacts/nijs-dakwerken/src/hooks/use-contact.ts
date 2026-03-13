@@ -39,14 +39,11 @@ export function useSubmitContact() {
         variant: "default",
       });
     },
-    onError: (error) => {
-      // We still show success in demo mode if the API doesn't exist yet
-      // In a real app, this would show the error variant
-      console.error("Contact API missing, but form is valid:", error);
+    onError: () => {
       toast({
-        title: "Aanvraag ontvangen (Demo)",
-        description: "Uw bericht is gelogd. (Backend API '/api/contact' niet gevonden).",
-        variant: "default",
+        title: "Bericht niet verzonden",
+        description: "Het formulier werkt niet op deze versie van de site. Mail ons direct op info@nijsdakwerken.nl",
+        variant: "destructive",
       });
     },
   });
