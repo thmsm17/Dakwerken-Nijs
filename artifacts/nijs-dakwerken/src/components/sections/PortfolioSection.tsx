@@ -18,17 +18,15 @@ const projects = [
   },
   {
     id: 3,
-    title: "Koper & Zinkwerk",
+    title: "Zink- & Koperwerken",
     category: "Zinkwerken",
-    // close up architectural detail of metal zinc roof gutter
-    image: "https://images.unsplash.com/photo-1628744876497-eb30460be9f6?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2070&auto=format&fit=crop",
   },
   {
     id: 4,
-    title: "Complexe Dakstructuren",
-    category: "Hellende daken",
-    // complex multi level roof architecture
-    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2069&auto=format&fit=crop",
+    title: "Dakrenovatie",
+    category: "Renovatie",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2070&auto=format&fit=crop",
   }
 ];
 
