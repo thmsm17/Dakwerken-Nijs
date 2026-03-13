@@ -1,0 +1,17 @@
+packages:
+  "framer-motion": "For premium smooth scroll animations and section reveals"
+  "@hookform/resolvers": "For Zod schema-based form validation"
+  "react-hook-form": "For robust contact form handling"
+  "zod": "For strictly typing the contact form payload"
+
+images:
+  - path: "artifacts/nijs-dakwerken/public/images/logo.png"
+    description: "Minimalist modern geometric logo for a roofing company, combining a house roof silhouette with a subtle shield, deep navy blue and vibrant safety orange colors, transparent background, highly professional"
+    aspect_ratio: "1:1"
+  - path: "artifacts/nijs-dakwerken/public/images/pattern-bg.png"
+    description: "Subtle abstract architectural line pattern, very light grey, modern construction blueprint aesthetic, seamless texture for web background"
+    aspect_ratio: "16:9"
+
+notes:
+  - Contact form POSTs to /api/contact and expects a 200/201 response. If backend is missing, mutation will fail gracefully but UI will be complete.
+  - Using a single-page scrolling architecture typical for high-converting contractor landing pages.

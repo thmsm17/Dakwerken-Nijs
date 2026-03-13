@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "P.G. Nijs Dakwerken"
+version = "1.0.0"
+id = "artifacts/nijs-dakwerken"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+localPort = 19694
+name = "web"
+paths = ["/"]
+
+[services.development]
+run = "pnpm --filter @workspace/nijs-dakwerken run dev"
+
+[services.env]
+PORT = "19694"
+BASE_PATH = "/"
+
+[services.production]
+build = ["pnpm", "--filter", "@workspace/nijs-dakwerken", "run", "build"]
+publicDir = "artifacts/nijs-dakwerken/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
