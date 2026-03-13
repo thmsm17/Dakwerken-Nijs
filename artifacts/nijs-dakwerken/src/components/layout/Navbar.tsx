@@ -86,7 +86,7 @@ export function Navbar() {
             <div className="flex items-center gap-4 ml-4">
               <div className={`hidden lg:flex items-center gap-2 ${isScrolled ? 'text-secondary' : 'text-white text-shadow'}`}>
                 <Phone className="w-4 h-4 text-primary" />
-                <span className="font-bold text-sm">0475 12 34 56</span>
+                <span className="font-bold text-sm">Venlo &amp; omgeving</span>
               </div>
               <Button 
                 onClick={() => scrollToSection("contact")}
@@ -125,7 +125,7 @@ export function Navbar() {
             <div className="pt-6 px-3">
               <div className="flex items-center gap-3 mb-4 text-secondary">
                 <Phone className="w-5 h-5 text-primary" />
-                <span className="font-bold">0475 12 34 56</span>
+                <span className="font-bold">Venlo &amp; omgeving</span>
               </div>
               <Button 
                 onClick={() => scrollToSection("contact")}

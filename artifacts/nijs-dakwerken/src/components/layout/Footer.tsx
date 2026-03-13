@@ -22,7 +22,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-gray-400 max-w-sm mb-6 leading-relaxed">
-              Uw betrouwbare partner voor alle dakwerken in de regio. Van kleine herstellingen tot complete renovaties, wij garanderen topkwaliteit en duurzaamheid.
+              Uw betrouwbare partner voor alle dakwerken in Venlo en omgeving. Van kleine herstellingen tot complete renovaties, wij garanderen topkwaliteit en duurzaamheid.
             </p>
           </div>
 

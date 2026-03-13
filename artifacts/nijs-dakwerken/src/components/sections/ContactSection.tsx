@@ -67,7 +67,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg mb-1">Adres</h4>
-                    <p className="text-gray-300">Dakwerkerstraat 123<br/>2000 Antwerpen, België</p>
+                    <p className="text-gray-300">Venlo<br/>Limburg, Nederland</p>
                   </div>
                 </div>
 
@@ -77,7 +77,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg mb-1">Telefoon</h4>
-                    <p className="text-gray-300">0475 12 34 56</p>
+                    <p className="text-gray-300">Neem contact op voor uw offerte</p>
                   </div>
                 </div>
 
@@ -87,15 +87,15 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg mb-1">E-mail</h4>
-                    <p className="text-gray-300">info@nijsdakwerken.be</p>
+                    <p className="text-gray-300">info@nijsdakwerken.nl</p>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="relative z-10 mt-16 pt-8 border-t border-white/20">
-              <h4 className="font-bold mb-2">BTW Nummer</h4>
-              <p className="text-gray-300">BE 0123.456.789</p>
+              <h4 className="font-bold mb-2">Werkgebied</h4>
+              <p className="text-gray-300">Venlo en omgeving<br/>Noord-Limburg</p>
             </div>
           </div>
 
@@ -126,7 +126,7 @@ export function ContactSection() {
                       <FormItem>
                         <FormLabel className="text-secondary font-bold">Telefoon *</FormLabel>
                         <FormControl>
-                          <Input placeholder="Bv. 0475 12 34 56" className="rounded-none h-12 bg-muted/50 border-border focus-visible:ring-primary" {...field} />
+                          <Input placeholder="Bv. 06 12 34 56 78" className="rounded-none h-12 bg-muted/50 border-border focus-visible:ring-primary" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -142,7 +142,7 @@ export function ContactSection() {
                       <FormItem>
                         <FormLabel className="text-secondary font-bold">E-mailadres *</FormLabel>
                         <FormControl>
-                          <Input type="email" placeholder="uw@email.be" className="rounded-none h-12 bg-muted/50 border-border focus-visible:ring-primary" {...field} />
+                          <Input type="email" placeholder="uw@email.nl" className="rounded-none h-12 bg-muted/50 border-border focus-visible:ring-primary" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>

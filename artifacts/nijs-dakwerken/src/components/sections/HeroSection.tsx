@@ -30,7 +30,7 @@ export function HeroSection() {
           >
             <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary/20 backdrop-blur-sm border border-primary/30 rounded-full mb-6">
               <span className="flex h-2 w-2 rounded-full bg-primary animate-pulse"></span>
-              <span className="text-primary-foreground text-xs font-bold tracking-wider uppercase">Actief in heel Vlaanderen</span>
+              <span className="text-primary-foreground text-xs font-bold tracking-wider uppercase">Gevestigd in Venlo &amp; omgeving</span>
             </div>
             
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-display text-white leading-[1.1] mb-6 drop-shadow-lg">
